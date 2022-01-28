@@ -15,10 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "gg.moonflower.starter.core.fabric.StarterFabric"
+      "com.surrealitymodding.outstretch.core.fabric.OutstretchFabric"
     ],
     "fabric-datagen": [
-      "gg.moonflower.starter.core.fabric.StarterFabricDatagen"
+      "com.surrealitymodding.outstretch.core.fabric.OutstretchFabricDatagen"
     ]
   },
   "depends": {
