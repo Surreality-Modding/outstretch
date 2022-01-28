@@ -12,7 +12,7 @@ credits = "Haunted Chest, StevePlayzz_, Noodlescript, CircleF1sh"
 description = "A new mod adding small additions to the game."
 displayURL = "https://discord.io/surrealitymodding"
 #updateJSONURL = ""
-logoFile = "logo.png"
+#logoFile = ""
 
 [[dependencies.${id}]]
 modId = "forge"
