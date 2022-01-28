@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "outstretch:block/seashale_top",
+    "side": "outstretch:block/seashale"
+  }
+}

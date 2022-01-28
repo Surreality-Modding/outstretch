@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[39,)"
-issueTrackerURL = "https://github.com/Surreality-Modding/$(repo)/issues"
+issueTrackerURL = "https://github.com/Surreality-Modding/${repo}/issues"
 license = "GPLv3"
 
 [[mods]]

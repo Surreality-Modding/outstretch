@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "outstretch:block/seashale",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "outstretch:block/seashale_mirrored",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "outstretch:block/seashale",
+        "y": 90,
+        "x": 90
+      },
+      {
+        "model": "outstretch:block/seashale_mirrored",
+        "y": 90,
+        "x": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "outstretch:block/seashale"
+      },
+      {
+        "model": "outstretch:block/seashale_mirrored"
+      },
+      {
+        "model": "outstretch:block/seashale",
+        "y": 180
+      },
+      {
+        "model": "outstretch:block/seashale_mirrored",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "outstretch:block/seashale",
+        "x": 90
+      },
+      {
+        "model": "outstretch:block/seashale_mirrored",
+        "x": 90
+      },
+      {
+        "model": "outstretch:block/seashale",
+        "y": 180,
+        "x": 90
+      },
+      {
+        "model": "outstretch:block/seashale_mirrored",
+        "y": 180,
+        "x": 90
+      }
+    ]
+  }
+}
