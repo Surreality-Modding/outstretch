@@ -1,15 +1,15 @@
-package gg.moonflower.starter.core;
+package com.surrealitymodding.outstretch.core;
 
 import gg.moonflower.pollen.api.platform.Platform;
 
-public class Starter {
-    public static final String MOD_ID = "starter";
+public class Outstretch {
+    public static final String MOD_ID = "outstretch";
     public static final Platform PLATFORM = Platform.builder(MOD_ID)
-            .clientInit(Starter::onClientInit)
-            .clientPostInit(Starter::onClientPostInit)
-            .commonInit(Starter::onCommonInit)
-            .commonPostInit(Starter::onCommonPostInit)
-            .dataInit(Starter::onDataInit)
+            .clientInit(Outstretch::onClientInit)
+            .clientPostInit(Outstretch::onClientPostInit)
+            .commonInit(Outstretch::onCommonInit)
+            .commonPostInit(Outstretch::onCommonPostInit)
+            .dataInit(Outstretch::onDataInit)
             .build();
 
     public static void onClientInit() {

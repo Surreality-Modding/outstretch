@@ -1,18 +1,18 @@
 modLoader = "javafml"
 loaderVersion = "[39,)"
-issueTrackerURL = "https://github.com/MoonflowerTeam/${repo}/issues"
+issueTrackerURL = "https://github.com/Surreality-Modding/$(repo)/issues"
 license = "GPLv3"
 
 [[mods]]
 modId = "${id}"
 version = "${version}"
 displayName = "${name}"
-authors = "Moonflower"
-credits = "An author, another author, and the last author."
-description = "This is an example starter template."
-displayURL = "https://www.moonflower.gg"
+authors = "Surreality Modding"
+credits = "Haunted Chest, StevePlayzz_, Noodlescript, CircleF1sh"
+description = "A new mod adding small additions to the game."
+displayURL = "https://discord.io/surrealitymodding"
 #updateJSONURL = ""
-#logoFile = ""
+logoFile = "logo.png"
 
 [[dependencies.${id}]]
 modId = "forge"
