@@ -30,6 +30,10 @@ public record Stoneset(MaterialColor stoneColor, MaterialColor materialColor){
         return new Block(BlockBehaviour.Properties.of(Material.STONE, stoneColor).strength(2.0F, 3.0F).sound(SoundType.STONE));
     }
 
+    public RotatedPillarBlock rotatedPillarBlock() {
+        return new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE, stoneColor).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.DEEPSLATE));
+    }
+
     public SlabBlock slab() {
         return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, stoneColor).strength(2.0F, 3.0F).sound(SoundType.STONE));
     }

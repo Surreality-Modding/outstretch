@@ -18,9 +18,9 @@ public class OUBlocks {
     public static final PollinatedRegistry<Block> BLOCKS = PollinatedRegistry.create(Registry.BLOCK, Outstretch.MOD_ID);
 
     // Seashale
-    private static final Stoneset SEASHALE_SET = new Stoneset(MaterialColor.WOOL, MaterialColor.SAND);
+    private static final Stoneset SEASHALE_SET = new Stoneset(MaterialColor.COLOR_CYAN, MaterialColor.TERRACOTTA_BLUE);
 
-    public static final Supplier<Block> SEASHALE = registerBlock("seashale", SEASHALE_SET::block, CreativeModeTab.TAB_BUILDING_BLOCKS, Blocks.DEEPSLATE);
+    public static final Supplier<Block> SEASHALE = registerBlock("seashale", SEASHALE_SET::rotatedPillarBlock, CreativeModeTab.TAB_BUILDING_BLOCKS, Blocks.DEEPSLATE);
 
 
 
