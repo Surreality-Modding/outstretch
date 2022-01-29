@@ -1,4 +1,4 @@
-package com.surrealitymodding.outstretch.common.registry;
+package com.surrealitymodding.outstretch.core.registry;
 
 import com.surrealitymodding.outstretch.core.Outstretch;
 import gg.moonflower.pollen.api.registry.PollinatedRegistry;

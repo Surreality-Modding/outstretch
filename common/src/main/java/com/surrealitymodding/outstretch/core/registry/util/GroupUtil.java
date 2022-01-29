@@ -1,4 +1,4 @@
-package com.surrealitymodding.outstretch.common.registry.util;
+package com.surrealitymodding.outstretch.core.registry.util;
 
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.CreativeModeTab;

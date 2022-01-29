@@ -1,7 +1,7 @@
-package com.surrealitymodding.outstretch.common.registry;
+package com.surrealitymodding.outstretch.core.registry;
 
 import com.surrealitymodding.outstretch.common.item.FollowItemLike;
-import com.surrealitymodding.outstretch.common.registry.util.Stoneset;
+import com.surrealitymodding.outstretch.core.registry.util.Stoneset;
 import com.surrealitymodding.outstretch.core.Outstretch;
 import gg.moonflower.pollen.api.registry.PollinatedRegistry;
 import net.minecraft.core.Registry;

@@ -3,13 +3,13 @@
   "id": "${id}",
   "version": "${version}",
   "name": "${name}",
-  "description": "This is an example starter template.",
+  "description": "A new mod adding small additions to the game.",
   "authors": [ "Moonflower" ],
-  "contributors": [ "An author", "Another author", "The last author" ],
+  "contributors": [ "Haunted Chest", "StevenPlayzz", "Noodlescript", "CircleF1sh" ],
   "contact": {
-    "homepage": "https://www.moonflower.gg",
-	"issues": "https://github.com/MoonflowerTeam/${repo}/issues",
-    "sources": "https://github.com/MoonflowerTeam/${repo}/"
+    "homepage": "https://discord.io/surrealitymodding",
+	"issues": "https://github.com/Surreality-Modding/${repo}/issues",
+    "sources": "https://github.com/Surreality-Modding/${repo}/"
   },
   "license": "GPLv3",
   "environment": "*",

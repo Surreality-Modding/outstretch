@@ -1,6 +1,6 @@
 package com.surrealitymodding.outstretch.common.item;
 
-import com.surrealitymodding.outstretch.common.registry.util.GroupUtil;
+import com.surrealitymodding.outstretch.core.registry.util.GroupUtil;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;

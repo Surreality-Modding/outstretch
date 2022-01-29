@@ -1,5 +1,7 @@
 package com.surrealitymodding.outstretch.core;
 
+import com.surrealitymodding.outstretch.core.registry.OUBlocks;
+import com.surrealitymodding.outstretch.core.registry.OUItems;
 import gg.moonflower.pollen.api.platform.Platform;
 
 public class Outstretch {
@@ -19,6 +21,8 @@ public class Outstretch {
     }
 
     public static void onCommonInit() {
+        OUBlocks.BLOCKS.register(Outstretch.PLATFORM);
+        OUItems.ITEMS.register(Outstretch.PLATFORM);
     }
 
     public static void onCommonPostInit(Platform.ModSetupContext ctx) {
