@@ -1,5 +1,6 @@
 package com.surrealitymodding.outstretch.core.registry.util;
 
+import com.surrealitymodding.outstretch.common.block.OutstretchFurnaceBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.EntityType;
@@ -36,8 +37,10 @@ public record Stoneset(MaterialColor stoneColor, MaterialColor materialColor){
         return new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE, stoneColor).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.DEEPSLATE));
     }
 
+    //TODO: Haunted when makeing a new one of these go into the acesswidner and make a new one because then the error is annoying and the game cant run after you jar it
+    //For example SlabBlock has an acesswidner thats why it works, alr?
     public FurnaceBlock furnaceBlock(){
-        return new FurnaceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.5F).lightLevel(litBlockEmission(13)));
+        return new OutstretchFurnaceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.5F).lightLevel(litBlockEmission(13)));
     }
 
     public SlabBlock slab() {
