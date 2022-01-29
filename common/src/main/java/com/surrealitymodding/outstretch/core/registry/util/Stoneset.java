@@ -7,10 +7,12 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 
 import java.util.function.Supplier;
+import java.util.function.ToIntFunction;
 
 public record Stoneset(MaterialColor stoneColor, MaterialColor materialColor){
     private static Boolean never(BlockState arg, BlockGetter arg2, BlockPos arg3, EntityType<?> arg4) {
@@ -34,6 +36,10 @@ public record Stoneset(MaterialColor stoneColor, MaterialColor materialColor){
         return new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE, stoneColor).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.DEEPSLATE));
     }
 
+    public FurnaceBlock furnaceBlock(){
+        return new FurnaceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.5F).lightLevel(litBlockEmission(13)));
+    }
+
     public SlabBlock slab() {
         return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, stoneColor).strength(2.0F, 3.0F).sound(SoundType.STONE));
     }
@@ -52,6 +58,12 @@ public record Stoneset(MaterialColor stoneColor, MaterialColor materialColor){
 
     public WallBlock wall() {
         return new WallBlock(BlockBehaviour.Properties.of(Material.STONE, stoneColor).strength(2.0F, 3.0F).sound(SoundType.STONE));
+    }
+
+    private static ToIntFunction<BlockState> litBlockEmission(int lightValue) {
+        return (blockState) -> {
+            return (Boolean)blockState.getValue(BlockStateProperties.LIT) ? lightValue : 0;
+        };
     }
 
 }

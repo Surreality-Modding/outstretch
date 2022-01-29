@@ -1,4 +1,5 @@
 {
   "_comment": "Seashale Blocks & Items",
-  "block.outstretch.seashale": "Seashale"
+  "block.outstretch.seashale": "Seashale",
+  "block.outstretch.seashale_furnace": "Seashale Furnace"
 }

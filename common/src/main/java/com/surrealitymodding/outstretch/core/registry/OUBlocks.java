@@ -21,6 +21,7 @@ public class OUBlocks {
     private static final Stoneset SEASHALE_SET = new Stoneset(MaterialColor.COLOR_CYAN, MaterialColor.TERRACOTTA_BLUE);
 
     public static final Supplier<Block> SEASHALE = registerBlock("seashale", SEASHALE_SET::rotatedPillarBlock, CreativeModeTab.TAB_BUILDING_BLOCKS, Blocks.DEEPSLATE);
+    public static final Supplier<Block> SEASHALE_FURNACE = registerBlock("seashale_furnace", SEASHALE_SET::furnaceBlock, CreativeModeTab.TAB_BUILDING_BLOCKS, Blocks.DEEPSLATE);
 
 
 

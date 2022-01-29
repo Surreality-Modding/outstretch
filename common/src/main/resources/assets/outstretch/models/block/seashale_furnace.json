@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "outstretch:block/seashale_furnace_top",
+    "front": "outstretch:block/seashale_furnace_front",
+    "side": "outstretch:block/seashale_furnace_side"
+  }
+}
