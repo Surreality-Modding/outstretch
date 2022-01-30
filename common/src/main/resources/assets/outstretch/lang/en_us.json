@@ -1,5 +1,14 @@
 {
   "_comment": "Seashale Blocks & Items",
   "block.outstretch.seashale": "Seashale",
-  "block.outstretch.seashale_furnace": "Seashale Furnace"
+  "block.outstretch.seashale_furnace": "Seashale Furnace",
+  "block.outstretch.andesite_furnace": "Andesite Furnace",
+  "block.outstretch.diorite_furnace": "Diorite Furnace",
+  "block.outstretch.granite_furnace": "Granite Furnace",
+  "block.outstretch.tuff_furnace": "Tuff Furnace",
+  "block.outstretch.dripstone_furnace": "Dripstone Furnace",
+  "block.outstretch.end_stone_furnace": "End Stone Furnace",
+  "block.outstretch.netherrack_furnace": "Netherrack Furnace",
+  "block.outstretch.sandstone_furnace": "Sandstone Furnace",
+  "block.outstretch.red_sandstone_furnace": "Red Sandstone Furnace"
 }

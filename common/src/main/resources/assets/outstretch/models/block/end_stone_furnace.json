@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "outstretch:block/end_stone_furnace_top",
+    "front": "outstretch:block/end_stone_furnace_front",
+    "side": "outstretch:block/end_stone_furnace_side"
+  }
+}
