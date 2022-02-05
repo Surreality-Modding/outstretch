@@ -22,6 +22,7 @@ public class Outstretch {
 
     public static void onCommonInit() {
         OUBlocks.BLOCKS.register(Outstretch.PLATFORM);
+        OUBlocks.BLOCK_ENTITIES.register(Outstretch.PLATFORM);
         OUItems.ITEMS.register(Outstretch.PLATFORM);
     }
 
