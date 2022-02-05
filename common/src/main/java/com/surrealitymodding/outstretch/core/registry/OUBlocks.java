@@ -10,7 +10,11 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.NetherrackBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 
 import java.util.function.Supplier;
@@ -61,6 +65,10 @@ public class OUBlocks {
     //Endstone Set
     private static final Stoneset END_STONE_SET = new Stoneset(MaterialColor.STONE, MaterialColor.COLOR_YELLOW);
     public static final Supplier<Block> END_STONE_FURNACE = registerBlock("end_stone_furnace", END_STONE_SET::furnaceBlock, CreativeModeTab.TAB_DECORATIONS, Blocks.END_STONE);
+
+    //Nether Flint Chunk
+    private static final Stoneset FLINT_CHUNK_SET = new Stoneset(MaterialColor.STONE, MaterialColor.COLOR_RED);
+    public static final Supplier<Block> NETHER_FLINT_CHUNK = registerBlock("nether_flint_chunk", FLINT_CHUNK_SET::gravelBlock, CreativeModeTab.TAB_DECORATIONS, Blocks.NETHERRACK);
 
     //TODO: Haunted to add more to this just do this ---------------------------------------------------------------------------------------------------------------------------------------------------------------------v
     //     public static final Supplier<BlockEntityType<OUFurnaceBlockEntity>> OUTSTRETCH_FURNACE_BE = BLOCK_ENTITIES.register("outstretch_furnace", () -> BlockEntityType.Builder.of(OutstretchFurnaceBlockEntity::new, SEASHALE_FURNACE.get(), EXAMPLE_1_FURNACE.get(), EXAMPLE_2_FURNACE.get()).build(null));

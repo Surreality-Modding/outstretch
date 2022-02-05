@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "outstretch:block/nether_flint_chunk"
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "x": 90
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "x": 180
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "x": 270
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 90
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 90,
+        "x": 90
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 90,
+        "x": 180
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 90,
+        "x": 270
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 180
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 180,
+        "x": 90
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 180,
+        "x": 180
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 180,
+        "x": 270
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 270
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 270,
+        "x": 90
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 270,
+        "x": 180
+      },
+      {
+        "model": "outstretch:block/nether_flint_chunk",
+        "y": 270,
+        "x": 270
+      }
+    ]
+  }
+}

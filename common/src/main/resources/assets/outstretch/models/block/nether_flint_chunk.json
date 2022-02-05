@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "outstretch:block/nether_flint_chunk"
+  }
+}

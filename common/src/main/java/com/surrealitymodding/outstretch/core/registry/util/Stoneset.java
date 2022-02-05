@@ -33,6 +33,10 @@ public record Stoneset(MaterialColor stoneColor, MaterialColor materialColor){
         return new Block(BlockBehaviour.Properties.of(Material.STONE, stoneColor).strength(2.0F, 3.0F).sound(SoundType.STONE));
     }
 
+    public Block gravelBlock() {
+        return new GravelBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_RED).requiresCorrectToolForDrops().strength(0.4F).sound(SoundType.NETHERRACK));
+    }
+
     public RotatedPillarBlock rotatedPillarBlock() {
         return new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE, stoneColor).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.DEEPSLATE));
     }

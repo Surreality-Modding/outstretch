@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gravel",
+  "pattern": [
+    "#z",
+    "z#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+    "z": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "minecraft:gravel"
+  }
+}
